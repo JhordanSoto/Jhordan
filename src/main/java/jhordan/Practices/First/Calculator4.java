@@ -1,8 +1,8 @@
 package jhordan.Practices.First;
 
-class  Calculator4 {
-    int THOUSAND = 1000;
-     int THREE = 3;
+final class  Calculator4 {
+    static final int THOUSAND = 1000;
+    static final int THREE = 3;
     static final int FOUR = 4;
     private Calculator4() { }
     public static String getDelimiter(final String numbers) {
